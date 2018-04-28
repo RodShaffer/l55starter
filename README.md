@@ -94,13 +94,17 @@ Browse to http://yourappdomain/admin to log into the admin panel
 
 <u>For the normal site</u>  
 
-JavaScript and styles see "webpack.mix.site.js"  
+JavaScript and styles see "webpack.mix.site.js", "resources/assets/sass/app.scss", and  
+"resources/assets/sass/_variables.scss"  
 Layout file used "resources/views/layouts/app.blade.php"
 
 <u>For the admin panel</u>  
   
-JavaScript and styles "webpack.mix.admin.js"  
-Layout file used "resources/views/admin/layouts/app.blade.php"
+JavaScript and styles see "webpack.mix.admin.js", "resources/assets/sass/admin/admin.scss", and  
+"resources/assets/sass/admin/_variables.scss"  
+Layout file used "resources/views/admin/layouts/app.blade.php"  
+  
+Keep an eye out for my upcoming installation tutorial video and demonstration.
 
 ### Enjoy!
 
