@@ -82,11 +82,29 @@ Seed the database(<strong>php artisan db:seed</strong>)
   
 The database seeding will create three roles, one (admin) which is the main administrator account for the site and  
 therefore cannot be deleted through the admin panel GUI, two (user) this is the normal user account role, and three  
-(unverified) which is the unverified user account role.
+(unverified) which is the unverified user account role.  
+  
+Please note: Both the "user" and "unverified" roles are required for the account verification system to work correctly.  
+When a new user registers on the site, or an existing user changes their email address, the verification system, if need  
+be, removes the "user" role from the user, and assigns the "unverified" role to the user. When the user successfully  
+verifies their account the "unverified" role is removed and the "user" role is re-assigned.  
+  
+The seeding will also setup the base permissions that are required to manage users, roles, permissions, and will create  
+the main administrator account and also assign the admin role to the newly created account. The admin user can then be  
+used to create more users, roles, and permissions.  
+  
+Default admin login email is  
+admin@domain.com  
+  
+Default admin password is  
+secret
 
 Run npm install OR yarn install
 
-Add a .htaccess to the "public_html" folder so routes get rewritten properly if needed.
+Add a .htaccess to the "public_html" folder so routes get rewritten properly if needed. For an example look at  
+"public_html\.htaccess.example" and replace "yourdomain.com" with the domain name your using for your web application.  
+The example .htaccess also redirects all requests to "https" so if your not using https for what ever reason make sure  
+to also change the "https" to "http" right before "yourdomain.com"
 
 Browse to http://yourappdomain/admin to log into the admin panel
 
