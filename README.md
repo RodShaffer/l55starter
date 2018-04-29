@@ -122,7 +122,7 @@ JavaScript and styles see "webpack.mix.admin.js", "resources/assets/sass/admin/a
 "resources/assets/sass/admin/_variables.scss"  
 Layout file used "resources/views/admin/layouts/app.blade.php"  
   
-For further info check out my [installation tutorial video and demonstration]()
+For further info [check out](https://youtu.be/fXClf3Yiv84) my installation tutorial video and demonstration
 
 ### Enjoy!
 
