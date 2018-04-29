@@ -229,8 +229,13 @@ class UserController extends Controller
 
             $user->save();
 
-            $roles = Input::get('roles') ? Input::get('roles') : [];
-            $user->syncRoles($roles);
+            if (! $user->hasRole('admin')) {
+
+                $roles = Input::get('roles') ? Input::get('roles') : [];
+                $user->syncRoles($roles);
+
+            }
+
             $permissions = Input::get('direct_permissions') ? Input::get('direct_permissions') : [];
             $user->syncPermissions($permissions);
 

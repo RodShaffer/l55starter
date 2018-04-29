@@ -1,1 +1,0 @@
-<script type="text/javascript" src="/js/components/comment-box/comment-box.js"></script>

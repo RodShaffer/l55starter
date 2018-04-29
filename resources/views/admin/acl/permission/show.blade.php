@@ -62,6 +62,15 @@
 
                                         @endif
 
+                                            <a href="javascript:history.back()">
+
+                                                <button type="button"
+                                                        class="btn btn-outline-primary">
+                                                    <i class="fas fa-arrow-circle-left"></i> Back
+                                                </button>
+
+                                            </a>
+
                                     </div>
 
                                 </div>

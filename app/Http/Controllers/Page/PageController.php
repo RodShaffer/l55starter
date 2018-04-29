@@ -3,8 +3,6 @@
 namespace CGBG\Http\Controllers\Page;
 
 use CGBG\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
 class PageController extends Controller
 {

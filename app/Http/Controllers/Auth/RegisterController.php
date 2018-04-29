@@ -2,7 +2,6 @@
 
 namespace CGBG\Http\Controllers\Auth;
 
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use CGBG\User;
 use CGBG\Http\Controllers\Controller;

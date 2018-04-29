@@ -118,7 +118,7 @@
                             </p>
 
                             <p class="text-warning">
-                                Modify the appropriate information in "config/site.php"
+                                Modify the appropriate information in "config/site.php" and "config/admin.php"
                             </p>
 
                             <p>

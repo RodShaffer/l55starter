@@ -17582,8 +17582,6 @@ __webpack_require__(12);
 /***/ (function(module, exports, __webpack_require__) {
 
 
-//window.Popper = require('popper.js').default;
-
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This

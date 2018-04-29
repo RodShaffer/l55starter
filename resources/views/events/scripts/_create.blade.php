@@ -1,1 +1,0 @@
-<script type="text/javascript" src="/js/components/event-form/event-form.js"></script>

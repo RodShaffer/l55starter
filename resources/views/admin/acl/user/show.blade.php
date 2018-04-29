@@ -266,6 +266,13 @@
                                                     </a>
 
                                                 @endif
+
+                                                    <a href="{{ URL::previous() }}">
+                                                        <button type="button" class="btn btn-outline-primary">
+                                                            <i class="fas fa-arrow-circle-left"></i> {{ __('Back') }}
+                                                        </button>
+                                                    </a>
+
                                             </div>
                                         </div>
                                     </div>

@@ -59,7 +59,7 @@
 
                                     <div class="cgadmin-header-info-user-status">
                                         Logged in as:
-                                        <a href="/users/{{ Auth::user()->id }}" class="card-link cgadmin-header-info-links"> {{ Auth::user()->first_name }}</a>
+                                        <a href="/admin/user/{{ Auth::user()->id }}" class="card-link cgadmin-header-info-links"> {{ Auth::user()->first_name }}</a>
                                     </div>
 
                                 @endif

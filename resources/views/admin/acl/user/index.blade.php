@@ -78,7 +78,8 @@
 
                                                                         <div class="form-check">
                                                                             <input class="form-check-input position-static"
-                                                                                   type="checkbox" name="selected_users[]"
+                                                                                   type="checkbox"
+                                                                                   name="selected_users[]"
                                                                                    id="selected_users"
                                                                                    value="{{ $users[$i]->id }}"
                                                                                    aria-label="The id of the user to be deleted">
@@ -88,10 +89,12 @@
 
                                                                         <div class="form-check">
                                                                             <input class="form-check-input position-static"
-                                                                                   type="checkbox" name="selected_users[]"
+                                                                                   type="checkbox"
+                                                                                   name="selected_users[]"
                                                                                    id="selected_users"
                                                                                    value="{{ $users[$i]->id }}"
-                                                                                   aria-label="The id of the user to be deleted" disabled>
+                                                                                   aria-label="The id of the user to be deleted"
+                                                                                   disabled>
                                                                         </div>
 
                                                                     @endif
@@ -227,6 +230,15 @@
                                                 <i class="fas fa-trash-alt"></i>
                                                 Delete Selected
                                             </button>
+
+                                            <a href="javascript:history.back()">
+
+                                                <button type="button"
+                                                        class="btn btn-sm btn-outline-primary">
+                                                    <i class="fas fa-arrow-circle-left"></i> Back
+                                                </button>
+
+                                            </a>
 
                                         </div>
 
